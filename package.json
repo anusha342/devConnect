@@ -1,0 +1,27 @@
+{
+  "name": "devconnect",
+  "version": "1.0.0",
+  "description": "DevConnect - Connect for Devs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "build": "echo 'No build step required for Node.js backend'"
+  },
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "author": "Anusha Raj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "validator": "^13.15.26"
+  }
+}
