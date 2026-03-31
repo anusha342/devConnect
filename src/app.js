@@ -6,7 +6,7 @@ const cookieParser = require("cookie-parser");
 const cors = require("cors");
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://dev-connect-nine-khaki.vercel.app"],
+  origin: ["http://localhost:5173", "https://dev-connect-nine-khaki.vercel.app", "https://dev-connect-web-ashy.vercel.app", process.env.FRONTEND_URL],
   credentials: true,
 }));
 
